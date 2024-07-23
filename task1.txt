@@ -3,3 +3,194 @@ f699780 Hereby you shall see my solution!
 36937a0 File1.txt has changed
 8e0ce22 .gitignore added and configured
 3970bef File1.txt was created
+    1  ssh
+    2  help
+    3  sudo su
+    4  ls
+    5  cd..
+    6  cd ..
+    7  ls
+    8  cd ..
+    9  ls
+   10  cd ..
+   11  apt-get update
+   12  sudo apt-get update
+   13  sudo apt-get upgrade
+   14  cd ..
+   15  ls
+   16  cd /dev
+   17  ls
+   18  cd ..
+   19  cd /home/student-4322/
+   20  ls
+   21  cd /Documents
+   22  cd Documents
+   23  vi test.txt
+   24  ls
+   25  cat test.txt 
+   26  nano test.txt
+   27  history
+   28  vi test2.txt
+   29  ls | grep 2
+   30  ps
+   31  ps -h
+   32  ps -help
+   33  ps --help simple
+   34  ps -A
+   35  ps -A | office
+   36  ps -A | grep office
+   37  kill 11627
+   38  soffice
+   39  history | test3.txt
+   40  history | >>test3.txt
+   41  cat test3.txt 
+   42  history 
+   43  history  >>test3.txt
+   44  cat test3.txt 
+   45  mv test3.txt  history.txt
+   46  ls
+   47  cp history.txt history2.txt 
+   48  ls
+   49  git init
+   50  git add file1.txt
+   51  touch file1.txt
+   52  ls
+   53  git add file1.txt
+   54  ls
+   55  git remote add origin https://github.com/codingllama7/nix_tasks.git
+   56  cd home
+   57  cd..
+   58  cd ..
+   59  ls
+   60  cd student-4322/
+   61  ls
+   62  cd .git
+   63  touch .gitignore
+   64  open .gitignore
+   65  rm -rf .git
+   66  ls
+   67  cd..
+   68  cd ..
+   69  ls
+   70  cd .git
+   71  ls
+   72  rm -rf nix_tasks.git
+   73  rm -rf nix_tasks
+   74  ls
+   75  git remote -v
+   76  git local -v
+   77  git --help
+   78  git init
+   79  git remove
+   80  git --help
+   81  git rm
+   82  git rm -rf /.git
+   83  git init
+   84  cd .git
+   85  touch file1.txt
+   86  git commit -m "file1.txt is created"
+   87  ls
+   88  git commit -a
+   89  git remote add origin https://github.com/codingllama7/nix_tasks.git
+   90  git commit -m "file1.txt is created"
+   91  sudo apt-get install wine -y
+   92  apt-get install lutris
+   93  home
+   94  sudo apt-get install lutris
+   95  sudo rm -rf /var/lib/lutris
+   96  sudo rm -rf /var/lutris
+   97  sudo rm -rf /lutris
+   98  rm -rf ~/.config/lutris
+   99  sudo rm -rf /var/lib/wine
+  100  sudo rm -rf /var/wine
+  101  sudo rm -rf /wine
+  102  rm -rf ~/.config/wine
+  103  sudo pacman -S wine
+  104  sudo apt-get install wine
+  105  sudo apt update wine
+  106  sudo apt upgrade wine
+  107  wine --version
+  108  sudo apt-get install winetricks
+  109  sudo apt upgrade winetricks
+  110  sudo apt-get install lutris
+  111  sudo apt upgrade lutris
+  112  lutris --version
+  113  lutris
+  114  WINEPREFIX="$HOME/prefix32" WINEARCH=win32 wine wineboot
+  115  rm -r -f ~/.wine
+  116  WINEARCH=win32 WINEPREFIX=~/.wine wine wineboot
+  117  WINEPREFIX="$HOME/prefix32" WINEARCH=win32 wine wineboot
+  118  sudo apt upgrade idea
+  119  sudo ./idea.sh
+  120  sudo
+  121  sudo help
+  122  sudo --help
+  123  ssh-keygen -o -t rsa -C "zoltan.szabo.232@gmail.com"
+  124  ssh-keygen -t ed25519 -C "zoltan.szabo.232@gmail.com"
+  125  touch settings.xml
+  126  ls
+  127  rm -rf ${HOME}/.m2/repository/com/nixsolutions/ppp/interfaces
+  128  mvn compile
+  129  sudo apt install maven
+  130  mvn compile
+  131  cd ..
+  132  cd home
+  133  home
+  134  cd HOME
+  135  cd: home
+  136  ls
+  137  mvn compile
+  138  ls
+  139  mvn compile
+  140  cd home
+  141  cd..
+  142  cd ..
+  143  ls
+  144  cd ..
+  145  ls
+  146  cd student-4322/
+  147  rm -rf ${HOME}/.m2/repository/com/nixsolutions/ppp/interfaces
+  148  mvn compile
+  149  mkdir myrepo
+  150  cd myrepo
+  151  git init
+  152  echo "Initial content" > file1.txt
+  153  git add file1.txt
+  154  git commit -m "File1.txt was created"
+  155  git remote add origin https://github.com/codingllama7/nix_tasks.git
+  156  git push -u origin master
+  157* git push - origin master
+  158  git push -u origin master
+  159  ssh-keygen -t rsa -b 4096 -C "zoltan.szabo.232@gmail.com"
+  160  eval "$(ssh-agent -s)"
+  161  ssh-add ~/.ssh/id_rsa
+  162  cat ~/.ssh/id_rsa.pub
+  163  git remote set-url origin git@github.com:codingllama7/nix_tasks.git
+  164  git push -u origin master
+  165  echo "*.class" >> .gitignore
+  166  echo "target/" >> .gitignore
+  167  git add .gitignore
+  168  git commit -m ".gitignore added and configured"
+  169  echo "This is some kind of change." >> file1.txt
+  170  git add file1.txt
+  171  git commit -m "File1.txt has changed"
+  172  git push
+  173  git checkout -b branch1
+  174  echo "More changes" >> file1.txt
+  175  git add file1.txt
+  176  git commit -m "File1.txt has been changed in branch1"
+  177  git push -u origin branch1
+  178  git checkout master
+  179  git merge branch1
+  180  git push
+  181  git branch -d branch1
+  182  git push origin --delete branch1
+  183  git log --online > task1.txt
+  184  git add task1.txt
+  185  git commit -m "Hereby you shall see my solution!"
+  186  git push
+  187  git log --oneline > task1.txt
+  188  git add task1.txt
+  189  git commit -m "Okey, this should be the solution."
+  190  git push
+  191  history >> task1.txt
