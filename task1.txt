@@ -1,0 +1,5 @@
+f699780 Hereby you shall see my solution!
+51d3b15 File1.txt has been changed in branch1
+36937a0 File1.txt has changed
+8e0ce22 .gitignore added and configured
+3970bef File1.txt was created
